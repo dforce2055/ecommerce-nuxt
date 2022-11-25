@@ -1,0 +1,14 @@
+/* https://tailwindcss.nuxt.dev/getting-started/setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200;
+}
+
+@layer components {
+  .btn {
+    @apply bg-purple-400 text-white px-3 py-2 rounded-md text-sm hover:bg-purple-600;
+  }
+}
