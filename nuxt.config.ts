@@ -24,6 +24,9 @@ export default defineNuxtConfig({
     //   mode: 'out-in' // default
     // }
   },
+  build: {
+    transpile: ["@heroicons/vue", "@headlessui/vue"],
+  },
   // DOCS: https://nuxt.com/docs/api/composables/use-runtime-config
   runtimeConfig: {
     // Private keys are only available on the server
